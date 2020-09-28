@@ -1,0 +1,16 @@
+@page "{restaurantId:int}"
+@model OdeToFood.Pages.Restaurants.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details for @Model.Restaurant.Name</h1>
+<h4>Location: @Model.Restaurant.Location</h4>
+<h4>Cuisine: @Model.Restaurant.Cuisine</h4>
+
+<a asp-page="./List">All Restaurants</a>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

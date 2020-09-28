@@ -1,0 +1,30 @@
+@page
+@model OdeToFood.Pages.Restaurants.ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Restaurants</h1>
+<a asp-page="./Create">Create</a>
+<table class="table">
+    <tr>
+        <th>Name</th>
+    </tr>
+        @foreach(var restaurants in Model.Restaurants)
+        {
+            <tr>
+                 <td>@restaurants.Name.</td>
+                 <td><a asp-page="./Details" asp-route-restaurantId="@restaurants.Id">Details</a></td>
+                 <td><a asp-page="./Edit" asp-route-restaurantId="@restaurants.Id">Edit</a></td>
+                 <td><a asp-page="./Delete" asp-route-restaurantId="@restaurants.Id">Delete</a></td>
+                 
+            </tr>
+        }
+    
+
+</table>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

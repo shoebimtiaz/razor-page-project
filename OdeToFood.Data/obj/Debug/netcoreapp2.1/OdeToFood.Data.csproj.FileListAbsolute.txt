@@ -1,0 +1,12 @@
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp2.1/OdeToFood.Data.deps.json
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp2.1/OdeToFood.Data.dll
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp2.1/OdeToFood.Data.pdb
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp2.1/OdeToFood.Core.dll
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp2.1/OdeToFood.Core.pdb
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.csprojAssemblyReference.cache
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.AssemblyInfoInputs.cache
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.AssemblyInfo.cs
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.csproj.CoreCompileInputs.cache
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.csproj.CopyComplete
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.dll
+/Users/shoebimtiaz/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.pdb

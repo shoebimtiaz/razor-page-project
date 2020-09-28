@@ -1,0 +1,17 @@
+@page "{restaurantId:int}"
+@model OdeToFood.Pages.Restaurants.DeleteModel
+@{
+    ViewData["Title"] = "Delete";
+}
+    <form method="post">
+        <input type="hidden" asp-for="@Model.Restaurant.Id"/>
+        <h1>Are you sure you want to Delete @Model.Restaurant.Name?</h1>
+        <h6>Location: @Model.Restaurant.Location</h6>
+        <h6>Cuisine: @Model.Restaurant.Cuisine.</h6>
+        <input type="submit" class="btn btn-danger" value="Delete" />
+        <a asp-page="./List">All Restaurants</a>
+    </form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
